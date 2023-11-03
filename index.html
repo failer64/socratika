@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20231103141139">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo logo">
+					<div class="logo__icon">
+						<picture><source srcset="img/icon.webp" type="image/webp"><img src="img/icon.png" alt="logo"></picture>
+					</div>
+					<div class="logo__label">Сократика</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class='page__wellcome wellcome'>
+				<div class='wellcome__container'>
+					<div class="wellcome__content content-wellcome">
+						<div class="content-wellcome__label">
+							Добро пожаловать
+						</div>
+						<h1 class="content-wellcome__title">
+							Создавай презентации <br> по школьной программе вместе с <span>Сократика</span>
+						</h1>
+						<div class="content-wellcome__text">
+							Используя искуственный интелект, ты за считанные секунды <br> получишь идеальную презентацию,
+							которая подойдет для проведения уроков в школе на любую тему
+						</div>
+						<button data-popup="#popup" type="button" class="content-wellcome__button button">Начать</button>
+					</div>
+					<div class="wellcome__image">
+						<picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.png" alt="wellcome"></picture>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__image">
+					<picture><source srcset="img/popup.webp" type="image/webp"><img src="img/popup.png" alt="popup"></picture>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20231103141139"></script>
+</body>
+
+</html>
